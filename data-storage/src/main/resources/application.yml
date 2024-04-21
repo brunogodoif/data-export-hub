@@ -1,0 +1,57 @@
+server:
+  port: 9091
+  servlet:
+    context-path: '/data-storage/'
+  tomcat:
+    max-http-post-size: 100MB
+
+spring:
+
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  application:
+    name: data-export-storage
+    dateformatter: "yyyy-MM-dd HH:mm:ss"
+  output:
+    ansi:
+      enabled: Always
+  jackson:
+    date-format: "yyyy-MM-dd'T'HH:mm:ss.SSS"
+    write-dates-as-timestamps: false
+  logging:
+    level:
+      br.com.brunogodoif: TRACE
+      root: INFO
+      org:
+        springframework:
+          web: DEBUG
+          jdbc:
+            core:
+              JdbcTemplate:DEBUG
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+        orm:
+          jdbc:
+            bind: trace
+  kafka:
+    bootstrap-servers: localhost:9095
+minio:
+  endpoint: http://localhost:7070
+  accessKey: root
+  secretKey: 12345678910
+aws:
+  accessKey: ${YOUR_ACCESS_KEY}
+  secretKey: ${YOUR_SECRET_KEY}
+  region: ${AWS_REGION}
+cloud:
+  aws:
+    s3:
+      bucket: your-bucket-name
+storage:
+  type: minio
