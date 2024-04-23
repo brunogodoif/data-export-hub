@@ -1,8 +1,8 @@
-package br.com.brunogodoif.dataexporthub.datastorage.services.files.validator.implementation;
+package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.infrastructure.validator.implementation;
 
 import br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.controllers.exceptions.ErrorReadFileException;
 import br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.controllers.exceptions.InvalidFileException;
-import br.com.brunogodoif.dataexporthub.datastorage.services.files.validator.FileContentValidator;
+import br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.infrastructure.validator.FileContentValidator;
 
 import java.io.BufferedReader;
 import java.io.IOException;

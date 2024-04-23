@@ -1,6 +1,6 @@
-package br.com.brunogodoif.dataexporthub.datastorage.services.files.validator.implementation;
+package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.infrastructure.validator.implementation;
 
-import br.com.brunogodoif.dataexporthub.datastorage.services.files.validator.FileContentValidator;
+import br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.infrastructure.validator.FileContentValidator;
 
 import java.io.InputStream;
 

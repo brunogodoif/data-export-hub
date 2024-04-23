@@ -1,6 +1,6 @@
-package br.com.brunogodoif.dataexporthub.datastorage.services.files.storage.implementation;
+package br.com.brunogodoif.dataexporthub.datastorage.infrastructure.storage.implementation;
 
-import br.com.brunogodoif.dataexporthub.datastorage.services.files.storage.StorageFileInterface;
+import br.com.brunogodoif.dataexporthub.datastorage.infrastructure.storage.StorageFileInterface;
 import io.minio.*;
 import io.minio.errors.MinioException;
 import io.minio.http.Method;

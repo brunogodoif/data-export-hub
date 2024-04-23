@@ -1,4 +1,4 @@
-package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.infrastructure.persistence.mongodb;
+package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.infrastructure.persistence;
 
 
 import br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.domain.entity.FileData;

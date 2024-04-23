@@ -1,4 +1,4 @@
-package br.com.brunogodoif.dataexporthub.datastorage.config;
+package br.com.brunogodoif.dataexporthub.datastorage.infrastructure.config;
 
 import org.apache.kafka.clients.admin.AdminClientConfig;
 import org.springframework.boot.autoconfigure.kafka.KafkaProperties;

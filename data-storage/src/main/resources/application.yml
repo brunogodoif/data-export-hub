@@ -6,7 +6,6 @@ server:
     max-http-post-size: 100MB
 
 spring:
-
   servlet:
     multipart:
       max-file-size: 100MB
@@ -41,6 +40,9 @@ spring:
             bind: trace
   kafka:
     bootstrap-servers: localhost:9095
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/data-export-hub
 minio:
   endpoint: http://localhost:7070
   accessKey: root

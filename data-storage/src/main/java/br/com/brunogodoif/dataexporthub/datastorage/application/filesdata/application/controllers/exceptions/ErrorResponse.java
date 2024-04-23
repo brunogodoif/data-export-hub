@@ -1,4 +1,4 @@
-package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.controllers.exceptions;
+package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.controllers.exceptions;
 
 public class ErrorResponse {
     private String message;

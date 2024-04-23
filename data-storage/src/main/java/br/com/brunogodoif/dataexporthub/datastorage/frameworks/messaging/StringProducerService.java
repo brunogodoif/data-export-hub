@@ -1,4 +1,4 @@
-package br.com.brunogodoif.dataexporthub.datastorage.services;
+package br.com.brunogodoif.dataexporthub.datastorage.frameworks.messaging;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;

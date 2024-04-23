@@ -1,7 +1,7 @@
-package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.controllers;
+package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.controllers;
 
-import br.com.brunogodoif.dataexporthub.datastorage.services.files.validator.FileContentValidator;
-import br.com.brunogodoif.dataexporthub.datastorage.services.files.validator.implementation.*;
+import br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.infrastructure.validator.FileContentValidator;
+import br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.infrastructure.validator.implementation.*;
 import lombok.Getter;
 
 @Getter

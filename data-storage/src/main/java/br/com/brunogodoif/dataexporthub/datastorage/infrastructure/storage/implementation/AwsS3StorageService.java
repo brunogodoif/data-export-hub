@@ -1,6 +1,6 @@
-package br.com.brunogodoif.dataexporthub.datastorage.services.files.storage.implementation;
+package br.com.brunogodoif.dataexporthub.datastorage.infrastructure.storage.implementation;
 
-import br.com.brunogodoif.dataexporthub.datastorage.services.files.storage.StorageFileInterface;
+import br.com.brunogodoif.dataexporthub.datastorage.infrastructure.storage.StorageFileInterface;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.GeneratePresignedUrlRequest;
 import com.amazonaws.services.s3.model.ObjectMetadata;

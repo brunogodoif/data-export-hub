@@ -1,4 +1,4 @@
-package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.domain.dto;
+package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.controllers.records;
 
 import lombok.Getter;
 

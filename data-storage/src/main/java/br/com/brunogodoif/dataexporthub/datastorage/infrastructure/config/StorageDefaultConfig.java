@@ -1,6 +1,6 @@
-package br.com.brunogodoif.dataexporthub.datastorage.config;
+package br.com.brunogodoif.dataexporthub.datastorage.infrastructure.config;
 
-import br.com.brunogodoif.dataexporthub.datastorage.services.files.storage.StorageFileInterface;
+import br.com.brunogodoif.dataexporthub.datastorage.infrastructure.storage.StorageFileInterface;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

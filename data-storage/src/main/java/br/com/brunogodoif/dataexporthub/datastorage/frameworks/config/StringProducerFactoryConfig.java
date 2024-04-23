@@ -1,4 +1,4 @@
-package br.com.brunogodoif.dataexporthub.datastorage.frameworks;
+package br.com.brunogodoif.dataexporthub.datastorage.frameworks.config;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;

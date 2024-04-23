@@ -1,9 +1,17 @@
-package br.com.brunogodoif.dataexporthub.datastorage.domain.usecase;
+package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.domain.usecase;
 
-import br.com.brunogodoif.dataexporthub.datastorage.domain.entity.FileData;
+import br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.controllers.records.FileDataDTO;
 
-public class FilesDataUseCase {
-    FileData createFileData(String bucket, String fileName, double size);
-    FileData updateFileData(UUID id, String fileName);
-    void deleteFileData(UUID id);
+import java.util.List;
+
+public interface FilesDataUseCase {
+    List<FileDataDTO> getAllFileData();
+
+    FileDataDTO createFileData(FileDataDTO fileDataDTO);
+
+    FileDataDTO getFileData(String id);
+
+    FileDataDTO updateFileData(String id, FileDataDTO fileDataDTO);
+
+    boolean deleteFileData(String id);
 }

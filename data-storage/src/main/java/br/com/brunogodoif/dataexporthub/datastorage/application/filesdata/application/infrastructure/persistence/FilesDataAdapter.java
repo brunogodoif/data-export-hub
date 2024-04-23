@@ -1,9 +1,8 @@
-package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.adapters;
+package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.infrastructure.persistence;
 
 import br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.controllers.records.FileDataDTO;
 import br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.domain.entity.FileData;
 import br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.domain.usecase.FilesDataUseCase;
-import br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.infrastructure.persistence.FileDataRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

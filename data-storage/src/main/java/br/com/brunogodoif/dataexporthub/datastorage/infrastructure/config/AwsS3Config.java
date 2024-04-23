@@ -1,4 +1,4 @@
-package br.com.brunogodoif.dataexporthub.datastorage.config;
+package br.com.brunogodoif.dataexporthub.datastorage.infrastructure.config;
 
 import com.amazonaws.auth.DefaultAWSCredentialsProviderChain;
 import com.amazonaws.client.builder.AwsClientBuilder;

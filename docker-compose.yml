@@ -6,7 +6,14 @@ services:
 
 ######## Data Converter ########
 
-######## Minio Storage ######## 
+######## MongoDb ########
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+  
+######## Minio Storage ########
   storage:
     image: quay.io/minio/minio
     ports:

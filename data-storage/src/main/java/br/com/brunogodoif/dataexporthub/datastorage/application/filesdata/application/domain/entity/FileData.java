@@ -1,4 +1,4 @@
-package br.com.brunogodoif.dataexporthub.datastorage.domain.entity;
+package br.com.brunogodoif.dataexporthub.datastorage.application.filesdata.application.domain.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;

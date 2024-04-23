@@ -1,4 +1,4 @@
-package br.com.brunogodoif.dataexporthub.datastorage.services.files.storage;
+package br.com.brunogodoif.dataexporthub.datastorage.infrastructure.storage;
 
 import java.io.InputStream;
 
